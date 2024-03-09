@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 import os
 import environ
 from pathlib import Path
-from django.core.exceptions import ImproperlyConfigured
 
 # Initialise environment variables
 env = environ.Env()
