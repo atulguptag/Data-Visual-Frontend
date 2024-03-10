@@ -21,7 +21,7 @@ const Main = () => {
 
   useEffect(() => {
     const fetchDataFromApi = async () => {
-      const API_URL = "http://localhost:8000";
+      const API_URL = "https://atul-currency-converter.easify.xyz";
       try {
         const response = await axios.get(`${API_URL}/api/data`);
         console.log("response", response.data)
